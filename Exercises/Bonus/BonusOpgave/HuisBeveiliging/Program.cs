@@ -15,6 +15,9 @@ internal class Program
         Valkuil kuil = new Valkuil();
         DetectieLus lus = new DetectieLus();
 
+        lus.Connect(hek);
+        lus.Connect(kuil); 
+        lus.Connect(tl);
 
         // Hier komen de schurken!!!
         lus.Detect();
@@ -22,8 +25,8 @@ internal class Program
 
         // Dit keur ik niet goed.
         // Inclusief alle varianten hierop
-        hek.Open();
-        kuil.Open();
-        tl.Aan();
+        //hek.Open();
+        //kuil.Open();
+        //tl.Aan();
     }
 }
