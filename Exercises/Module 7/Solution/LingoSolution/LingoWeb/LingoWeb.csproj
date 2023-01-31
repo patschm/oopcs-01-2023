@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Starter\LingoSolution\LingoGame\LingoGame.csproj" />
+    <ProjectReference Include="..\..\..\Solution\LingoSolution\LingoGame\LingoGame.csproj" />
   </ItemGroup>
 
 </Project>
