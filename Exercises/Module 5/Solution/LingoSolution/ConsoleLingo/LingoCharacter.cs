@@ -62,4 +62,8 @@ public class LingoCharacter
         return obj;
     }
     // TODO 2b: Remove the constructor and change the code accordingly
+    private LingoCharacter()
+    {
+
+    }
 }
