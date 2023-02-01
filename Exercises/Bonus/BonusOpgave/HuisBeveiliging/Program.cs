@@ -16,8 +16,13 @@ internal class Program
         DetectieLus lus = new DetectieLus();
 
         lus.Connect(hek);
-        lus.Connect(kuil); 
+        lus.Connect(kuil);
         lus.Connect(tl);
+
+        lus.Connect(hek.Open);
+        lus.Connect(kuil.Open);
+        lus.Connect(tl.Aan);
+
 
         // Hier komen de schurken!!!
         lus.Detect();
